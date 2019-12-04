@@ -73,4 +73,4 @@ class database:
                 
                 team_table = pd.DataFrame(result)
                 print(team_table[3])
-                return team_table[3].drop([0,1,2,9,12,15,16,19,29], axis = 0).values
+                return team_table[3].drop([1,4,10,12,15,19,23,25,27], axis = 0).values
